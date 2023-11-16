@@ -1,4 +1,4 @@
-package com.example.examen;
+package Connectors;
 
 import android.graphics.ColorSpace;
 
