@@ -1,3 +1,5 @@
+package Model;
+
 public class Model {
     private String name;
     private String img;
@@ -11,7 +13,6 @@ public class Model {
     public void setLevel(String level) {
         this.level = level;
     }
-
     public void setImg(String img) {
         this.img = img;
     }
