@@ -10,7 +10,7 @@
         android:background="@drawable/ic_launcher_background"
         android:layout_margin="20dp"
         android:contentDescription="@string/desc_img"
-        
+
         />
     <TextView
         android:id="@+id/name"
