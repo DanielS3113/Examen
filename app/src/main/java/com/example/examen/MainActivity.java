@@ -1,6 +1,7 @@
 package com.example.examen;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.graphics.ColorSpace;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
 
+    private RecyclerView rclrv;
     private List<Model> digimons;
     private static String url = "https://digimon-api.vercel.app/api/";
 
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        rclrv = findViewById(R.id.items);
 
     }
 }
