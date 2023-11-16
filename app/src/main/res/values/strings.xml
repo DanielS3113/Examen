@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="desc_img">Digimon image</string>
+    <string name="xmpl_nm">Name</string>
+    <string name="xmpl_trn">Training</string>
+    <string name="xmpl_tm">Item</string>
+</resources>
