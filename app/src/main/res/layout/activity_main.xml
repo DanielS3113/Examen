@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
 
+
+    <ImageView
+        android:id="@+id/digimon"
+        android:layout_width="127dp"
+        android:layout_height="125dp"
+        android:background="@drawable/koromon" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_toEndOf="@id/digimon"
+        android:text="Koromon"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In training"
+        android:layout_toEndOf="@id/digimon"
+        android:layout_below="@id/name"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/items"
@@ -12,4 +40,4 @@
         android:layout_height="match_parent"/>
 
 
-</LinearLayout>
+</RelativeLayout>
